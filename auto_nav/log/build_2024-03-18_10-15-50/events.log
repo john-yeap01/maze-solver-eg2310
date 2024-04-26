@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.003802] (auto_nav) JobQueued: {'identifier': 'auto_nav', 'dependencies': OrderedDict()}
+[0.004135] (auto_nav) JobStarted: {'identifier': 'auto_nav'}
+[0.099480] (-) TimerEvent: {}
+[0.200869] (-) TimerEvent: {}
+[0.301306] (-) TimerEvent: {}
+[0.402749] (-) TimerEvent: {}
+[0.503552] (-) TimerEvent: {}
+[0.604076] (-) TimerEvent: {}
+[0.704660] (-) TimerEvent: {}
+[0.805403] (-) TimerEvent: {}
+[0.905815] (-) TimerEvent: {}
+[1.006779] (-) TimerEvent: {}
+[1.107654] (-) TimerEvent: {}
+[1.208895] (-) TimerEvent: {}
+[1.309235] (-) TimerEvent: {}
+[1.409616] (-) TimerEvent: {}
+[1.511704] (-) TimerEvent: {}
+[1.615291] (-) TimerEvent: {}
+[1.725234] (-) TimerEvent: {}
+[1.827720] (-) TimerEvent: {}
+[1.931047] (-) TimerEvent: {}
+[2.033339] (-) TimerEvent: {}
+[2.134300] (-) TimerEvent: {}
+[2.238321] (-) TimerEvent: {}
+[2.339443] (-) TimerEvent: {}
+[2.443830] (-) TimerEvent: {}
+[2.548648] (-) TimerEvent: {}
+[2.654027] (-) TimerEvent: {}
+[2.755160] (-) TimerEvent: {}
+[2.858620] (-) TimerEvent: {}
+[2.961223] (-) TimerEvent: {}
+[3.066306] (-) TimerEvent: {}
+[3.167172] (-) TimerEvent: {}
+[3.267786] (-) TimerEvent: {}
+[3.372071] (-) TimerEvent: {}
+[3.472494] (-) TimerEvent: {}
+[3.574877] (-) TimerEvent: {}
+[3.675296] (-) TimerEvent: {}
+[3.775830] (-) TimerEvent: {}
+[3.797319] (auto_nav) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/auto_nav', 'build', '--build-base', '/home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/build', 'install', '--record', '/home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/install.log', '--install-scripts', '$base/lib/auto_nav', '--single-version-externally-managed'], 'cwd': '/home/johnyeap01/colcon_ws/src/auto_nav', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'johnyeap01', 'SSH_AGENT_PID': '1249', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/johnyeap01', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/share/auto_nav', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1001', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/johnyeap01/colcon_ws/src/auto_nav/install:/home/johnyeap01/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'johnyeap01', 'JOURNAL_STREAM': '8:34584', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'johnyeap01', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/johnyeap01/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/johnyeap01/miniconda3/bin:/home/johnyeap01/miniconda3/condabin:/opt/ros/foxy/bin:/home/johnyeap01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/johnyeap01-MacBookPro:@/tmp/.ICE-unix/1296,unix/johnyeap01-MacBookPro:/tmp/.ICE-unix/1296', 'INVOCATION_ID': 'd1b2b439b72547cca8546bf19d67ca31', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/56da0d62_0956_495f_a2a2_480932aa013a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.89', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '38', 'AMENT_PREFIX_PATH': '/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav:/home/johnyeap01/colcon_ws/install/turtlebot3_simulations:/home/johnyeap01/colcon_ws/install/turtlebot3_gazebo:/home/johnyeap01/colcon_ws/install/scanner:/home/johnyeap01/colcon_ws/install/py_pubsub:/home/johnyeap01/colcon_ws/install/auto_nav:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/johnyeap01/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/johnyeap01/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/prefix_override:/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages:/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages:/home/johnyeap01/colcon_ws/install/scanner/lib/python3.8/site-packages:/home/johnyeap01/colcon_ws/build/py_pubsub:/home/johnyeap01/colcon_ws/install/py_pubsub/lib/python3.8/site-packages:/home/johnyeap01/colcon_ws/install/auto_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'CONDA_PREFIX': '/home/johnyeap01/miniconda3', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/johnyeap01/colcon_ws/install/turtlebot3_simulations:/home/johnyeap01/colcon_ws/install/turtlebot3_gazebo:/home/johnyeap01/colcon_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[3.876108] (-) TimerEvent: {}
+[3.976749] (-) TimerEvent: {}
+[4.077678] (-) TimerEvent: {}
+[4.178821] (-) TimerEvent: {}
+[4.279412] (-) TimerEvent: {}
+[4.310639] (auto_nav) StdoutLine: {'line': b'running egg_info\n'}
+[4.311849] (auto_nav) StdoutLine: {'line': b'writing build/auto_nav/auto_nav.egg-info/PKG-INFO\n'}
+[4.312390] (auto_nav) StdoutLine: {'line': b'writing dependency_links to build/auto_nav/auto_nav.egg-info/dependency_links.txt\n'}
+[4.313112] (auto_nav) StdoutLine: {'line': b'writing entry points to build/auto_nav/auto_nav.egg-info/entry_points.txt\n'}
+[4.313630] (auto_nav) StdoutLine: {'line': b'writing requirements to build/auto_nav/auto_nav.egg-info/requires.txt\n'}
+[4.313802] (auto_nav) StdoutLine: {'line': b'writing top-level names to build/auto_nav/auto_nav.egg-info/top_level.txt\n'}
+[4.379531] (-) TimerEvent: {}
+[4.381296] (auto_nav) StdoutLine: {'line': b"reading manifest file 'build/auto_nav/auto_nav.egg-info/SOURCES.txt'\n"}
+[4.383890] (auto_nav) StdoutLine: {'line': b"writing manifest file 'build/auto_nav/auto_nav.egg-info/SOURCES.txt'\n"}
+[4.384708] (auto_nav) StdoutLine: {'line': b'running build\n'}
+[4.385006] (auto_nav) StdoutLine: {'line': b'running build_py\n'}
+[4.386848] (auto_nav) StdoutLine: {'line': b'running install\n'}
+[4.389258] (auto_nav) StdoutLine: {'line': b'running install_lib\n'}
+[4.393885] (auto_nav) StdoutLine: {'line': b'running install_data\n'}
+[4.394980] (auto_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.399001] (auto_nav) StdoutLine: {'line': b"removing '/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages/auto_nav-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.399310] (auto_nav) StdoutLine: {'line': b'Copying build/auto_nav/auto_nav.egg-info to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages/auto_nav-0.0.0-py3.8.egg-info\n'}
+[4.400291] (auto_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[4.441278] (auto_nav) StdoutLine: {'line': b'Installing map2base script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.443024] (auto_nav) StdoutLine: {'line': b'Installing move script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.443525] (auto_nav) StdoutLine: {'line': b'Installing r2auto_nav script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.443774] (auto_nav) StdoutLine: {'line': b'Installing r2mover script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.443945] (auto_nav) StdoutLine: {'line': b'Installing r2moverotate script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.444099] (auto_nav) StdoutLine: {'line': b'Installing r2occupancy script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.444329] (auto_nav) StdoutLine: {'line': b'Installing r2occupancy2 script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.444505] (auto_nav) StdoutLine: {'line': b'Installing r2scanner script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.444673] (auto_nav) StdoutLine: {'line': b'Installing scanner script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav\n'}
+[4.444834] (auto_nav) StdoutLine: {'line': b"writing list of installed files to '/home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/install.log'\n"}
+[4.480006] (-) TimerEvent: {}
+[4.517983] (auto_nav) CommandEnded: {'returncode': 0}
+[4.582336] (-) TimerEvent: {}
+[4.687116] (-) TimerEvent: {}
+[4.790873] (-) TimerEvent: {}
+[4.895259] (-) TimerEvent: {}
+[5.009043] (-) TimerEvent: {}
+[5.110815] (-) TimerEvent: {}
+[5.212513] (-) TimerEvent: {}
+[5.319769] (-) TimerEvent: {}
+[5.428069] (-) TimerEvent: {}
+[5.529728] (-) TimerEvent: {}
+[5.631439] (-) TimerEvent: {}
+[5.732896] (-) TimerEvent: {}
+[5.754260] (auto_nav) JobEnded: {'identifier': 'auto_nav', 'rc': 0}
+[5.760076] (-) EventReactorShutdown: {}

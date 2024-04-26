@@ -1,0 +1,5 @@
+  File "/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages/auto_nav/scanner.py", line 26
+    print(f'laser range arraY: {laser_range})
+                                            ^
+SyntaxError: EOL while scanning string literal
+

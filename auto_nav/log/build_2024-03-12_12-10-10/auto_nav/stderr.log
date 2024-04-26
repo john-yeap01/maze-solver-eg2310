@@ -1,0 +1,5 @@
+  File "/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages/auto_nav/move.py", line 12
+    from nav_msgs.msg import OccupancyGridimport tf2_ros
+                                                 ^
+SyntaxError: invalid syntax
+

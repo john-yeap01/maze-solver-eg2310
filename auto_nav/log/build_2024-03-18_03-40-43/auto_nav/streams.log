@@ -1,0 +1,32 @@
+[5.078s] Invoking command in '/home/johnyeap01/colcon_ws/src/auto_nav': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/prefix_override:/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/auto_nav build --build-base /home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/build install --record /home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/install.log --install-scripts $base/lib/auto_nav --single-version-externally-managed
+[6.075s] running egg_info
+[6.077s] writing build/auto_nav/auto_nav.egg-info/PKG-INFO
+[6.079s] writing dependency_links to build/auto_nav/auto_nav.egg-info/dependency_links.txt
+[6.080s] writing entry points to build/auto_nav/auto_nav.egg-info/entry_points.txt
+[6.081s] writing requirements to build/auto_nav/auto_nav.egg-info/requires.txt
+[6.081s] writing top-level names to build/auto_nav/auto_nav.egg-info/top_level.txt
+[6.227s] reading manifest file 'build/auto_nav/auto_nav.egg-info/SOURCES.txt'
+[6.231s] writing manifest file 'build/auto_nav/auto_nav.egg-info/SOURCES.txt'
+[6.232s] running build
+[6.232s] running build_py
+[6.234s] copying auto_nav/move.py -> /home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/build/lib/auto_nav
+[6.235s] running install
+[6.238s] running install_lib
+[6.244s] copying /home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/build/lib/auto_nav/move.py -> /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages/auto_nav
+[6.250s] byte-compiling /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages/auto_nav/move.py to move.cpython-38.pyc
+[6.263s] running install_data
+[6.270s] running install_egg_info
+[6.274s] removing '/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages/auto_nav-0.0.0-py3.8.egg-info' (and everything under it)
+[6.275s] Copying build/auto_nav/auto_nav.egg-info to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages/auto_nav-0.0.0-py3.8.egg-info
+[6.275s] running install_scripts
+[6.344s] Installing map2base script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.345s] Installing move script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.345s] Installing r2auto_nav script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.346s] Installing r2mover script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.346s] Installing r2moverotate script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.347s] Installing r2occupancy script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.347s] Installing r2occupancy2 script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.347s] Installing r2scanner script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.348s] Installing scanner script to /home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/auto_nav
+[6.351s] writing list of installed files to '/home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/install.log'
+[6.469s] Invoked command in '/home/johnyeap01/colcon_ws/src/auto_nav' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/prefix_override:/home/johnyeap01/colcon_ws/src/auto_nav/install/auto_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/auto_nav build --build-base /home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/build install --record /home/johnyeap01/colcon_ws/src/auto_nav/build/auto_nav/install.log --install-scripts $base/lib/auto_nav --single-version-externally-managed
